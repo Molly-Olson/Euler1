@@ -1,13 +1,12 @@
 using System.Runtime.InteropServices;
 using System.Linq;
 
-//stack<int>10 = new Stack<int>();
-
-//List<int> wholeNumbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-List<int> wholeNumbers = Enumerable.Range(1, 999).ToList();
-return List<int>();
+List<int> wholeNumbers = Enumerable.Range(1, 9).ToList();
 
 Stack<int> multiples = new Stack<int> ();
+
+foreach (int i in wholeNumbers) // define i first ya dingleberry
+{
 
 if (i == 3% &&|| 5%) //idk how to write any of this apparently
 {
@@ -15,4 +14,4 @@ if (i == 3% &&|| 5%) //idk how to write any of this apparently
  {
 
  }
-} 
+} }
