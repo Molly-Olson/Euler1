@@ -12,6 +12,11 @@ foreach (int i in wholeNumbers) // define i first ya dingleberry
         multiples.Push(i);
         Console.WriteLine(i); // Write would have them all on one line where line added separates them on diff lines
     }
-    // print results of new stack (multiples)
+    // print results of new stack (multiples) done above
     // add the sum of ints in multiples
-} 
+}
+    int sumOfMultiples = 0;
+    foreach (int number in multiples)
+{
+    
+}
