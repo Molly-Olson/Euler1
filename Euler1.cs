@@ -18,5 +18,6 @@ foreach (int i in wholeNumbers) // define i first ya dingleberry
     int sumOfMultiples = 0;
     foreach (int number in multiples)
 {
-    
+    sumOfMultiples = sumOfMultiples + number; // kinda like i++ but you're adding more than 1 each time, add the previous value from the stack
 }
+Console.WriteLine(sumOfMultiples);
