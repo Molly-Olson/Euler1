@@ -1,0 +1,6 @@
+Find all multiples of 3 and 5 < (not including) 1000
+start with a list or array (or stack) of ints 1-1000
+search through and push/pop multiples 3/5 into new stack 
+then add the new stack integers into total sum
+(start with og problem of up to 10 for practice)
+
