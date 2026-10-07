@@ -8,10 +8,8 @@ Stack<int> multiples = new Stack<int> ();
 foreach (int i in wholeNumbers) // define i first ya dingleberry
 {
 
-if (i == 3% &&|| 5%) //idk how to write any of this apparently
-{
- then 
+if (i % 3 == 0 || i % 5 == 0)
  {
 
  }
-} }
+} 
