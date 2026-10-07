@@ -7,9 +7,9 @@ Stack<int> multiples = new Stack<int> ();
 
 foreach (int i in wholeNumbers) // define i first ya dingleberry
 {
-
-if (i % 3 == 0 || i % 5 == 0)
- {
-
- }
+    if (i % 3 == 0 || i % 5 == 0)
+    { // now that you have the multiples of 3 OR 5 put them somewhere (new stack? created above?)
+        multiples.Push(i);
+    }
+    
 } 
