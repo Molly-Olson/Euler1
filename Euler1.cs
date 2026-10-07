@@ -10,7 +10,7 @@ foreach (int i in wholeNumbers) // define i first ya dingleberry
     if (i % 3 == 0 || i % 5 == 0)
     { // now that you have the multiples of 3 OR 5 put them somewhere (new stack? created above?)
         multiples.Push(i);
-        Console.WriteLine(); // Write would have them all on one line where line added separates them on diff lines
+        Console.WriteLine(i); // Write would have them all on one line where line added separates them on diff lines
     }
     // print results of new stack (multiples)
     // add the sum of ints in multiples
